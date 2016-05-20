@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo/SFNodelogo_colorRGBppi72.png" alt="SFNode" />  
+</p>
+
 SFNode Contribute
 =================
 
