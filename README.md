@@ -20,5 +20,16 @@ ___
 * Url to slides or github (either now or can be posted in meetup comments later)
 * Are you going to be live coding?
 * Do you need audio from your computer?
-* Add the `proposal` label to your issue
 * See [past](https://github.com/sfnode/sfnode/issues/4) [proposals](https://github.com/sfnode/sfnode/issues/3) [for](https://github.com/sfnode/sfnode/issues/2) [examples](https://github.com/sfnode/sfnode/issues/1)
+
+### For hosting opportunities open an [issue](https://github.com/sfnode/sfnode/issues) or [email us](mailto:teamsfnode@gmail.com) with answers to the following questions:
+
+___
+
+* What is the address, floor, room name if any, entrance instructions?
+* Do we need to submit an attendee list for security purposes?
+* What's the total number of people that space can hold?
+* Will food and drinks will be provided? Are there vegetarian and gluten free options?
+* What is the AV setup like?
+* What is the microphone setup? Mic stand or headset mic?
+* What is the parking situation like? Is bike parking available? Any off-street parking?
