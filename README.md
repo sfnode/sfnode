@@ -4,7 +4,7 @@
 
 SFNode Contribute
 =================
-We meet on the first Thursday of every month. Join us!
+We meet on the second Thursday of every month. Join us!
 
 [Propose a topic, talk, speaker, or location for SFNode.](https://github.com/sfnode/sfnode/issues)
 
