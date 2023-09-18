@@ -2,28 +2,50 @@
 name: Venue Proposal
 about: Have a location that would be ideal for hosting SF Node?
 title: 'Venue Proposal: {Company/Organization Name}'
-labels: ''
+labels: 'host'
 assignees: ''
-
----
-
-**What is the address, floor, room name if any, entrance instructions?**
-We'll post this information on the Meetup page so that everyone knows where to go.
-
-**Do we need to submit an attendee list for security purposes?**
-Not a big deal. Just helps us plan and coordinate with you to get the list to you in time.
-
-**What's the total number of people that space can hold?**
-We average 75 people per month.
-
-**Will food and drinks will be provided? Are there vegetarian and gluten free options?**
-Doesn't need to be super fancy.
-
-**What is the AV setup like?**
-Tell us about the setup so we can make sure it matches with the requirements of our speakers for that month.
-
-**What is the microphone setup? Mic stand or headset mic?**
-Tell us about the setup so we can make sure it matches with the requirements of our speakers for that month.
-
-**What is the parking situation like? Is bike parking available? Any off-street parking?**
-We do get asked about bike parking every month, so it helps us to know if its available.
+body:
+    - type: markdown
+      attributes:
+        value: |
+            Thanks so much for your interest in hosting SFNode!
+            
+            The event host typically provides food and drink, but if you're not able to we can usually find a sponsor for that. Each month we feature 2-3 talks about Node.js, server-side JavaScript, npm and the surrounding ecosystem. We try to find a good balance between beginner and advanced topics.
+    - type: textarea
+      attributes:
+        label: What is the address, floor, room name if any, entrance instructions?
+        description: We'll post this information on the Meetup page so that everyone knows where to go.
+      validations:
+        required: true
+    - type: checkboxes
+      attributes:
+        label: Do we need to submit an attendee list for security purposes?
+        options:
+            - label: Yes, a list of attendees generated from meetup.com is required!
+    - type: input
+      attributes:
+        label: What's the total number of people that space can hold?
+        description: We average 50 people per month.
+      validations:
+        required: true
+    - type: textarea
+      attributes:
+        label: Food & Drinks
+        description: Will food and drinks will be provided? Are there vegetarian and gluten free options? Doesn't need to be super fancy.
+      validations:
+        required: true
+    - type: textarea
+      attributes:
+        label: What is the AV setup like?
+        description: Tell us about the setup so we can make sure it matches with the requirements of our speakers for that month.
+      validations:
+        required: true
+    - type: textarea
+      attributes:
+        label: What is the parking situation like? Is bike parking available? Any off-street parking?
+        description: We do get asked about bike parking every month, so it helps us to know if its available.
+    - type: checkboxes
+      attributes:
+        label: Are you interested being a host another time?
+        options:
+            - label: Yes, we would love to host the meet-up again!
