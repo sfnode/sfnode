@@ -3,7 +3,9 @@ name: Talk Proposal
 about: Describe this issue template's purpose here.
 title: 'Talk Proposal: {Talk Title}'
 labels: 'talk'
-assignees: ''
+assignees:
+  - 'Zahidul-Islam'
+  - 'christian-bromann'
 body:
     - type: markdown
       attributes:
