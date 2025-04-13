@@ -1,6 +1,6 @@
 name: Talk Proposal
-about: Describe this issue template's purpose here.
 title: 'Talk Proposal: {Talk Title}'
+description: Want to give a talk at a future SFNode event?
 labels: 'talk'
 assignees:
   - 'Zahidul-Islam'
